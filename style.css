@@ -1,0 +1,204 @@
+body{
+    background-color: #EFF1FA;
+}
+header{
+    /* background-color: #0A3871; */
+    display: flex;
+    width: 80%;    
+    margin: 0px auto;
+    align-items: center;    
+    height: 70px;    
+}
+#imagenAlura{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.bloque{
+    display: flex;        
+    width: 80%;
+    height: 842px;
+    margin: 0px auto;
+    justify-content: center;       
+    position: relative;
+}
+#bloqueEncriptador{    
+    margin-right: 84px;
+}
+.entradaTexto{
+    background-color: #EFF1FA;
+    border: 2px solid transparent;
+    outline: none;
+    resize: none;
+    width: 790px;
+    height: 630px;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: Cascadia Code;
+    font-weight:500;
+    font-size: 23px;
+    line-height: 1.4;
+    transition: all 1s;
+    padding: 20px;
+    position: relative;
+    top: 30px;    
+}
+.entradaTexto:hover{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+    box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+}
+#botonesEyD{
+    text-align: center;
+    position: relative;
+    top: 60px;    
+}
+#botonesEyD button{    
+    border-radius: 24px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-left:30px;   
+}
+#btnEncriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: #D8DFE8;
+    font-family: Cascadia Code;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+#btnEncriptar:hover{    
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-top: 23px;
+    padding-bottom: 23px; 
+}
+#btnEncriptar:active{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: #D8DFE8;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+#btnDescriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    font-family: Cascadia Code;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+#btnDescriptar:hover{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: #D8DFE8;
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-top: 23px;
+    padding-bottom: 23px; 
+}
+#btnDescriptar:active{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+#desencriptador{
+    margin-left: 84px;
+    position: relative;    
+    width: 336px;    
+    text-align: center;    
+}
+#munieco{
+    position: absolute;
+    left: 1px;
+    top: 150px;
+    transition: all 2s;
+}
+#h1titulo{
+    position: relative;
+    top: 470px;
+    font-family: Cascadia Code;
+    font-size: 28px;
+    transition: all 1s;
+}
+#h1titulo:hover{
+    font-size: 29px;
+}
+#parrafo{
+    position: relative;
+    top: 490px;
+    font-family: Cascadia Code;
+    transition: all 1s;
+}
+#parrafo:hover{
+    font-size: 17px;
+}
+.salidaTexto{
+    position: absolute;
+    font-family: Cascadia Code;
+    color: #0A3871;
+    font-size: 20px;
+    left: 0px;
+    bottom: 30px;    
+    border-radius: 32px;
+    border: 2px solid transparent;
+    outline: none;
+    resize: none;
+    transition: all 1s;
+    padding: 24px;
+    width: 290px;
+    height: 790px;    
+    background: white;    
+}
+.salidaTexto:hover{
+    font-size: 21px;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+    box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+}
+#btncopiar{
+    display: none;
+    position:absolute;
+    background-color: #ffffff;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    font-family: Cascadia Code;
+    font-size: 20px;   
+    border-radius: 24px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-left:47px;  
+    bottom: 58px;
+    transition: all 0.2s;
+}
+#btncopiar:hover{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: #D8DFE8;
+    padding-left: 93px;
+    padding-right: 93px;
+    padding-top: 23px;
+    padding-bottom: 23px;     
+}
+#btncopiar:active{
+    background-color: #ffffff;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
